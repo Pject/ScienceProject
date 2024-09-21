@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+  <style>
+    /* Homepage */
+    body {
+      position: relative;
+      width: 1440px;
+      height: 2092px;
+      background: #FFFFFF;
+    }
+
+    /* We’re farmers, purveyors, and eaters of organically grown food. */
+    .hero-text {
+      position: absolute;
+      height: 154px;
+      left: 217px;
+      right: 203px;
+      top: 279px;
+
+      font-family: 'Newsreader';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 120%;
+      /* or 77px */
+      text-align: center;
+      letter-spacing: -0.02em;
+
+      color: #000000;
+    }
+
+    /* Button */
+    .button {
+      position: absolute;
+      width: 227px;
+      height: 64px;
+      left: calc(50% - 227px/2 + 0.5px);
+      top: 481px;
+
+      background: #426B1F;
+      border-radius: 8px;
+    }
+
+    /* Browse our shop */
+    .button-text {
+      position: absolute;
+      width: 163px;
+      height: 26px;
+      left: calc(50% - 163px/2);
+      top: calc(50% - 26px/2);
+
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 130%;
+      /* identical to box height, or 26px */
+      display: flex;
+      align-items: center;
+
+      color: #FFFFFF;
+    }
+
+    /* ... other styles ... */
+
+    /* Image */
+    .image {
+      position: absolute;
+      height: 693px;
+      left: 96px;
+      right: 840px;
+      top: 701px;
+      background-image: url('Stocksy_txp226f62b2aNe300_Medium_4839430.jpg');
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero-text">We’re farmers, purveyors, and eaters of organically grown food.</div>
+  <button class="button">
+    <span class="button-text">Browse our shop</span>
+  </button>
+  <div class="image"></div>
+  </body>
+</html>
